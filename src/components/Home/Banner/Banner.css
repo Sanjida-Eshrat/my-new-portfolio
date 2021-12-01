@@ -1,0 +1,31 @@
+.geeks {
+    padding: 200px;
+    text-align: center;
+}
+
+.pattern {
+    position: relative;
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg,
+            #3bb78f 0%, #0bab64 74%);
+}
+
+.pattern:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* height: 250px; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../../../images/rsz_bg-n.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*   style={{
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(${banner})`,
+            // backgroundImage: `url(${banner})`,
+            backgroundPosition:'center',
+            backgroundRepeat:'no-repeat',
+            backgroundSize:'cover',
+           }} */

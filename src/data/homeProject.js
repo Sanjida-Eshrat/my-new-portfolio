@@ -1,15 +1,40 @@
-const packages =[
+const homeProject =[
 
     {
         id:1,
         title:'Eabir Perfume Shop',
-        description: 'Sajek valley is 2000 feet above sea level. Sajek valley is known as the Queen of Hills & Roof of Rangamati. The name of Sajek Valley came from Sajek River that originates from Karnafuli river. Sajek river is working as a border between Bangladesh and India. Sajek valley resorts are made on the side of the hill to provide the unique experience of tribal lifestyle.',
-        technology: '2 days, 1 night',
-        liveSite:,
-        client:,
-        server:,
-        firstImg:'https://media.istockphoto.com/photos/the-magnificent-sajek-valley-picture-id1008831818?k=20&m=1008831818&s=612x612&w=0&h=mKfpQLA7mRFqG4Q4Ks6VD2H7NYFdPIcVjMiblQys5aI=',
+        description: 'A MERN-based fully functional web app with a customized admin/user dashboard.Users can buy perfumes of their preference, if logged in, they can place orders, see their order list, delete orders, and add reviews.Admin can add and delete a product, update a user’s order status and even delete it, and set a user to admin.',
+        technology: 'MERN, Javascript, React Bootstrap, React Router, React Hook Form, Firebase, and Heroku.',
+        liveSite:'https://niche-website-2.web.app/',
+        client:'https://github.com/Sanjida-Eshrat/eabir-perfume-niche-client',
+        server:'https://github.com/Sanjida-Eshrat/eabir-perfume-niche-server',
+        firstImg:'https://i.ibb.co/QFZ0hn4/Eabir-1.png',
+        secondImg:'https://i.ibb.co/0JHHSLH/Eabir-3.png',
+        thirdImg:'https://i.ibb.co/Mp8QSxt/Eabir-4.png',
     },
-  
-
+    {
+        id:2,
+        title:'TravelHero',
+        description: 'A MERN-based web app with google authentication. Users can book different tour plans, if logged in, they can place orders, see their order list and delete orders.',
+        technology: 'MERN, Javascript, React Bootstrap, React Router, React Hook Form, Firebase, and Heroku.',
+        liveSite:'https://tourism-website-2.web.app/',
+        client:'https://github.com/Sanjida-Eshrat/travelHero-11-client',
+        server:'https://github.com/Sanjida-Eshrat/travelHero-11-server',
+        firstImg:'https://i.ibb.co/JmKCrzZ/travel-1.png',
+        secondImg:'https://i.ibb.co/tDPLLq9/travel-2.png',
+        thirdImg:'https://i.ibb.co/3vTNFqG/travel-3.png',
+    },
+    {
+        id:3,
+        title:'WebLearners',
+        description: 'A react app with created with react routing and bootstrap.It’s a website of online courses related to computer science.',
+        technology: 'React,Javascript, React Bootstrap, React Router and Netlity.',
+        liveSite:'https://festive-hawking-fb5923.netlify.app/',
+        client:'https://github.com/Sanjida-Eshrat/education-website-9',
+        server:'',
+        firstImg:'https://i.ibb.co/QNdx8kg/Web-Learners-1.png',
+        secondImg:'https://i.ibb.co/cQjqT84/Screenshot-4.png',
+        thirdImg:'https://i.ibb.co/rGwKb3P/Web-Learners-3.png',
+    },
+    
 ]

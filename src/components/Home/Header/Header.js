@@ -9,15 +9,14 @@ const Header = () => {
             <Navbar  expand="lg" bg="dark" variant="dark" fixed="top">
             <Container>
                 <Navbar.Brand className="items">
-                    <h3 style={{color:'White'}}>Sanjida Eshrat</h3>
+                    <h3 style={{color:'White'}}><span className="text-info">Sanjida</span> Eshrat</h3>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                <NavLink to="" className="items"><li> Home</li></NavLink>
-                <NavLink to="" className="items"><li> Contact Me</li></NavLink>
-                {/* Download Resume */}
-                <NavLink className="text-decoration-none text-white fs-6 ms-3 fw-bold btn   btn-sm items rounded-pill" to="" style={{backgroundColor:'#f39792'}}><i class="fas fa-sign-in-alt"></i> Resume</NavLink>
+                <NavLink to="/home" className="items"><li> Home</li></NavLink>
+                <NavLink to="/about" className="items"><li> About Me</li></NavLink>
+                <NavLink to="/contact" className="items"><li> Contact Me</li></NavLink>               
                 </Nav>
                 </Navbar.Collapse>   
             </Container>

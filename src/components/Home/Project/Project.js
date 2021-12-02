@@ -12,10 +12,10 @@ const Project = (props) => {
                     <Card.Body>
                         <Card.Title className="mb-4">{title}</Card.Title>
                         <a href={liveSite} target="_blank">
-                        <Button className='me-1 text-white' variant="outline-info">Live Site</Button>
+                        <Button className='me-1 text-white' variant="outline-info"><i className="fas fa-globe "></i> Live Site</Button>
                         </a>
-                        <Link to=''>
-                            <Button className="text-white" variant="outline-info" >Details</Button>
+                        <Link to={`/details/${id}`}>
+                            <Button className="text-white" variant="outline-info" ><i className="fas fa-info-circle "></i> Details</Button>
                         </Link>
                     </Card.Body>
                 </Card>

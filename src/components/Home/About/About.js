@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import about from '../../../images/bg-1.jpg';
+import about from '../../../images/me.jpg';
 const About = () => {
     return (
         <div className="container my-5 p-5 w-75 shadow border border-info rounded-3 ">
@@ -17,7 +17,7 @@ const About = () => {
                     </a>
                 </div>
                 <div className="col-lg-6 col-md-12">
-                    <img src={about} alt="" width="250" height="250" className=" rounded-circle border border-3 border-info"/>
+                    <img src={about} alt="" width="240" height="250" className=" rounded-circle border border-3 border-info"/>
                 </div>          
             </div>
         </div>

@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
+import useProjects from '../../../hooks/useProjects';
 import Project from '../Project/Project';
 
 const Projects = () => {
-    const [projects, setProjects] = useState([])
-    useEffect(() => {
-       fetch('homeProject.json')
-            .then(res => res.json())
-            .then(data => setProjects(data));
-    }, [])
+    const [projects] = useProjects();
+
     return (
         <div className="m-0 pb-3">
             <div className="container">

@@ -5,6 +5,7 @@ import About from './components/Home/About/About';
 import Header from './components/Home/Header/Header';
 import Footer from './components/Home/Footer/Footer';
 import Home from './components/Home/Home/Home';
+import Details from './components/Details/Details';
 
 function App() {
   return (
@@ -21,8 +22,12 @@ function App() {
              <Home></Home>
           </Route>
           {/* Redirect to About page */}
-          <Route path ="/contact">
+          {/* <Route path ="/about">
              <About></About>
+          </Route> */}
+          {/* Redirect to Details page */}
+          <Route path ="/details/:projectId">
+             <Details></Details>
           </Route>
           {/* Redirect to Contact page */}
           <Route path ="/contact">
